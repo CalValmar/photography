@@ -32,7 +32,7 @@ layout: default
 
     <!-- Footer -->
     <footer id="footer" class="panel">
-        <div class="inner split">
+        <div class="inner">
             <div>
                 <section>
                     <h2>À propos</h2>
@@ -40,41 +40,13 @@ layout: default
                 </section>
                 <section>
                     <h2>Retrouve-moi sur</h2>
-                    <ul class="icons">
-                        {% if site.social_urls.instagram %}
-                            <li>
-                                <a href="{{ site.social_urls.instagram }}" class="icon brands fa-instagram">
-                                    <span class="label">Instagram</span>
-                                </a>
-                            </li>
-                        {% endif %}
-                    </ul>
+                    {% if site.social_urls.instagram %}
+                        <p><a href="{{ site.social_urls.instagram }}" class="text-fg" target="_blank" rel="noopener">Instagram</a></p>
+                    {% endif %}
                 </section>
                 <p class="copyright">
                     &copy; {{ site.author }}.
                 </p>
-            </div>
-            <div>
-                <section>
-                    <h2>Me contacter</h2>
-                    <form method="post" action="#">
-                        <div class="fields">
-                            <div class="field half">
-                                <input type="text" name="name" id="name" placeholder="Name" />
-                            </div>
-                            <div class="field half">
-                                <input type="text" name="email" id="email" placeholder="Email" />
-                            </div>
-                            <div class="field">
-                                <textarea name="message" id="message" rows="4" placeholder="Message"></textarea>
-                            </div>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send" class="primary" /></li>
-                            <li><input type="reset" value="Reset" /></li>
-                        </ul>
-                    </form>
-                </section>
             </div>
         </div>
     </footer>
