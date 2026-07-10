@@ -6,15 +6,15 @@ image_thumbs_loc: "/images/thumbs"
 google_analytics: ""
 
 # UI configs
-title: "Photography by Lila Nantara"
-subtitle: "See the world through my eyes!"
+title: "Lila Nantara | Portfolio photo"
+subtitle: "Lumières de fin de journée, villes, ports et horizons calmes"
 author: "Lila Nantara"
 header:
- title: "Photography"
- subtitle: "by Lila Nantara"
+ title: "Lila Nantara"
+ subtitle: "Portfolio photo"
 footer:
- name: "Hey there, my name is Lila"
- bio: "."
+ name: "À propos de Lila"
+ bio: "Photographe passionnée par les lumières de fin de journée, les scènes urbaines et les atmosphères marines. Ce portfolio rassemble une sélection d'images choisies pour leur ambiance, leurs contrastes et leur côté contemplatif."
  github: ""
 
 social_urls:
